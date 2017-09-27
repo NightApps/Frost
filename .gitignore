@@ -53,5 +53,6 @@ xcuserdata
 /Telegram/*.user.*
 *.pro.user
 /Linux/
+/TelegramPrivate/
 /Telegram/Makefile
 *.*~

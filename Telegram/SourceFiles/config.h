@@ -23,11 +23,13 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 #include "core/version.h"
 #include "settings.h"
 
-constexpr str_const AppNameOld = "Telegram Win (Unofficial)";
-constexpr str_const AppName = "Telegram Desktop";
+#define CUSTOM_API_ID
+
+constexpr str_const AppNameOld = "Telegram Desktop";
+constexpr str_const AppName = "FROST";
 
 constexpr str_const AppId = "{53F49750-6209-4FBF-9CA8-7A333C87D1ED}"; // used in updater.cpp and Setup.iss for Windows
-constexpr str_const AppFile = "Telegram";
+constexpr str_const AppFile = "FROST";
 
 enum {
 	MTPShortBufferSize = 65535, // of ints, 256 kb
